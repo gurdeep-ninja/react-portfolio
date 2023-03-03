@@ -142,21 +142,16 @@ main section:nth-child(even){
 
 /* Custom card body style */
 .card .card-body{
-        position: absolute;
         background-color: var(--theme-bg-color);
         bottom: 2em;
         right: 0;
         text-align: right;
-        width: 50%;
         padding: 20px;
         opacity: 0.96;
         border: 3px solid var(--theme-accent);
         border-right: none;
 }
-/* Custom style target all cards except first */
-.row div:nth-child(n+2) .card .card-body {
-	width: 75%;
-}
+
 /* Apply image opacity & animation settings */
 .card img {
     opacity: 0.7;

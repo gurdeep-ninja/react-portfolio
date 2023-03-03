@@ -1,19 +1,26 @@
 import projects from '../assets/json/projects.json';
 import Project from '../components/Project/Project';
+import { Container, Row, Col } from 'react-bootstrap';
 
 function Projects() {
     return (
         <>
-        <p>This is the projects page</p>
-            {projects.map((project) => {
-                return <Project key={project.id}
-                id = {project.id} 
-                title = {project.title}
-                github = {project.github}
-                image = {project.image}
-                />
+            <p>This is the projects page</p>
+            <Container>
+                <Row>
+                    {projects.map((project, index) => {
 
-            })}
+                        return <Project
+                            key={index}
+                            id={index}
+                            title={project.title}
+                            github={project.github}
+                            image={project.image}
+                        />
+
+                    })}
+                </Row>
+            </Container>
         </>
     )
 }
