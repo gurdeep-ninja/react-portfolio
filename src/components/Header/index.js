@@ -1,11 +1,11 @@
 import React from 'react';
-import './style.css';
-function Nav(){
-    return(
+import logoSrc from '../../assets/images/logo.png'
+function Nav() {
+    return (
         <header>
-     <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+            <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
                 <a className="navbar-brand" href="/">
-                    <img src="./images/logo.png" alt="Gurdeep Bangar logo image" className="logo"/>
+                    <img src={logoSrc} alt="Gurdeep Bangar logo image" className="logo" />
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"

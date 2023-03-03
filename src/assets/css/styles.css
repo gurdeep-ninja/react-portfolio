@@ -1,0 +1,239 @@
+/* Set CSS variables to reuse throughout website */
+:root {
+    --theme-accent: #218AFF;/* Primary accent / font colour */
+    --theme-bg-color: rgb(16, 16, 16);/* Primary background colour */
+    --theme-bg-color-secondary: rgb(32, 32, 32); /* Secondary background colour */
+    --theme-body-font-color: #fff;
+}
+
+/* Adds smooth scrolling for anchor links */
+html {
+	scroll-behavior: smooth; /* Makes sure scrolling is smooth */
+}
+
+/* Set body styles */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: var(--theme-bg-color);
+    color: var(--theme-body-font-color);
+}
+
+/* Reset styles for lists */
+ol,
+ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+/* Heading 2 styles */
+h2 {
+    font-weight:bold;
+    font-size:3.5em
+}
+/* Default link colour */
+a {
+    color: var(--theme-body-font-color);
+}
+
+/* Set a max-width for the main website container */
+.narrow {
+    max-width: 960px;
+}
+
+/* Override bootstrap btn hover style  */
+.btn:hover {
+	background-color: var(--theme-bg-color);
+	box-shadow: rgba(0, 88, 255, 0.7) 0px 0px 29px 0px;
+}
+/* Header Styles */
+/* Override bootstrap .bg-dark background color*/
+.bg-dark {
+    background-color: var(--theme-bg-color-secondary)!important;
+}
+
+/* Set max width for header logo */
+.navbar-brand .logo {
+    max-width: 300px;
+}
+
+/* nav item (li) adjustments */
+.nav-item {
+    flex-shrink: 0;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Adjust navbar-nav (ul) styles */
+.navbar-nav {
+    align-items: stretch;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+}
+
+/* Adjust nav link top/bottom padding */
+.nav-link {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/* Adjust nav link hover colour */
+.nav-link:hover {
+    background-color: var(--theme-accent);
+    color: var(--theme-body-font-color);
+}
+
+/* Override .navbar-dark link color */
+.navbar-dark .navbar-nav .nav-link {
+    color:var(--theme-body-font-color);
+}
+
+/* Custom Jumbotron styles */
+/* Apply styles to the main jumbotron */
+.jumbotron {
+	background-image: url("../images/hero-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    height: calc(50vh - 25px);
+}
+
+/* Jumbotron copy text */
+.jumboCopy {
+	color: var(--theme-body-font-color);
+	text-align: center;
+    padding:calc(10vh - 25px) 0;
+    background-color:rgba(0, 0, 0,0.5);
+    width:100%;
+}
+
+/* Set display type to flex for jumbotron col-8 */
+.jumbotron .col-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Set custom background colour for lead paragraph text */
+.jumboCopy .lead {
+    background-color:var(--theme-accent)
+}
+
+/* Jumbotron hero image style */
+.jumboHeroImage{
+    max-width:100%
+}
+
+/* Main Section Styles*/
+/* Apply background colour to even section child elements */
+main section:nth-child(even){
+    background-color: var(--theme-bg-color-secondary)
+}
+
+/* My Work Section */
+/* Custom card style */
+.card {
+    border-color:rgba(72, 153, 247,0.5);
+    position: relative;
+}
+
+/* Custom card body style */
+.card .card-body{
+        position: absolute;
+        background-color: var(--theme-bg-color);
+        bottom: 2em;
+        right: 0;
+        text-align: right;
+        width: 50%;
+        padding: 20px;
+        opacity: 0.96;
+        border: 3px solid var(--theme-accent);
+        border-right: none;
+}
+/* Custom style target all cards except first */
+.row div:nth-child(n+2) .card .card-body {
+	width: 75%;
+}
+/* Apply image opacity & animation settings */
+.card img {
+    opacity: 0.7;
+    transition: all 0.2s ease-in-out;
+}
+
+/* On hover event on card image */
+.card:hover img {
+    opacity: 1; 
+}
+
+/* Skill Section */
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    background-color: var(--theme-bg-color-secondary);
+    position: relative;
+    border:1px solid var(--theme-accent);
+}
+
+/* Span to hold skill checkbox icon */
+.skill span {
+    position: absolute;
+    font-size:1.5em;
+    line-height: 1;
+    top:5px;
+    left:5px;
+    color:var(--theme-body-font-color);
+}
+
+/* Contact section */
+
+  /* Add a styles to h2 in contact section */
+#contact-section h2 {
+    border-bottom:2px solid var(--theme-accent);
+}
+
+/* General style for section-container */
+.section-container {
+    border-top: 8px solid var(--theme-accent);
+}
+
+/* Footer */
+.contact-details {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Set Footer link coour */
+footer a {
+    color:var(--theme-accent)
+}
+/* Set footer link hover colour */
+footer a:hover {
+    color: var(--theme-body-font-color);
+}
+/* Set footer contact details section font size */
+.contact-details{
+    font-size:1.5em
+}
+/* Minor media query tweeks */
+@media screen and (max-width:500px) {
+    /* Make logo image sligtly smaller on small devices */
+    .navbar-brand .logo {
+        max-width: 250px;
+    }
+
+}
+
+@media screen and (max-width:992px){
+    /* Adjust card body styles */
+    .card .card-body,.row div:nth-child(n+2) .card .card-body{
+        width:100%;
+        bottom:0
+    }
+}
