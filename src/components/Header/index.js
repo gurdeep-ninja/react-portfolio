@@ -1,12 +1,13 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import logoSrc from '../../assets/images/logo.png'
 function Nav() {
     return (
         <header>
             <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-                <a className="navbar-brand" href="/">
+                <NavLink className="navbar-brand" to="/" end>
                     <img src={logoSrc} alt="Gurdeep Bangar logo image" className="logo" />
-                </a>
+                </NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -15,16 +16,13 @@ function Nav() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="#work-section">Work</a>
+                            <NavLink className="nav-link" to="/projects" end>Projects</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#skills-section">Skills</a>
-                        </li>
+                            <NavLink className="nav-link" to="/about" end>About Me</NavLink>
+                        </li>                        
                         <li className="nav-item">
-                            <a className="nav-link" href="#contact-section">About me</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#contact-section">Contact me</a>
+                            <NavLink className="nav-link" to="/contact" end>Contact me</NavLink>
                         </li>
                     </ul>
                 </div>
