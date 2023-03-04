@@ -1,13 +1,12 @@
 import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { Nav, Navbar } from 'react-bootstrap';
-import logoSrc from '../../assets/images/logo.png'
 function Header() {
     return (
         <header>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="p-3">
                 <Navbar.Brand as={Link} to="/">
-                    <img src={logoSrc} alt="Gurdeep Bangar logo image" className="logo" />
+                    <img src="assets/images/logo.png" alt="Gurdeep Bangar" className="logo" />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
