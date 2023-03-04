@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faGifts, faHome, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
@@ -16,10 +16,9 @@ function Footer() {
 
                     <div className="col-md-6">
                         <ul className="contact-details">
-                            <li className=""><a href="mailto:example@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a></li>
-                            <li className=""><a href="https://github.com/gurdeep-ninja/"><FontAwesomeIcon icon={faGithub} /></a></li>
-                            <li className=""><a href="https://www.linkedin.com/in/gurdeep-bangar-393543259/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-                            <li className=""><a href="tel:0800000000"><FontAwesomeIcon icon={faPhone} /></a></li>
+                            <li className="">Email <a href="mailto:gurdeep.bangar@proton.me"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+                            <li className="">GitHub <a href="https://github.com/gurdeep-ninja/"><FontAwesomeIcon icon={faGithub} /></a></li>
+                            <li className="">LinkedIn <a href="https://www.linkedin.com/in/gurdeep-bangar-393543259/"><FontAwesomeIcon icon={faLinkedin} /></a></li>
                         </ul>
                     </div>
 
