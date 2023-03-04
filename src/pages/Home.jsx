@@ -7,7 +7,7 @@ function Home() {
                     <Container>
                         <Row>
                             <Col md={12} lg={5}>
-                                <img src="assets/images/me.png" alt="A picture of my avatar" className="jumboHeroImage" />
+                                <img src="assets/images/me.png" alt="Me" className="jumboHeroImage" />
                             </Col>
                             <Col md={12} lg={7} >
                                 <div className="jumboCopy">
@@ -38,40 +38,40 @@ function Home() {
                                         small electronic projects to tinkering with Linux server configurations.</p>
                                 </Row>
                             </Col>
-                            {/* Column 2 of 2 - Skill column */}
+                            {/* Column 2 of 2 - Content column */}
                             <Col sm={12} md={6}>
                                 <Row className="mt-5">
                                     {/* Skill 1 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill"><img src="assets/images/html-icon.png" /><p>HTML</p></div>
+                                        <div className="skill"><img src="assets/images/html-icon.png" alt="HTML" /><p>HTML</p></div>
                                     </Col>
                                     {/* Skill 2 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill"><img src="assets/images/css-file-format-icon.png" /><p>CSS</p></div>
+                                        <div className="skill"><img src="assets/images/css-file-format-icon.png" alt="CSS" /><p>CSS</p></div>
                                     </Col>
                                     {/* Skill 3 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill"><img src="assets/images/git-icon.png"/><p>Git</p></div>
+                                        <div className="skill"><img src="assets/images/git-icon.png" alt="GIT" /><p>Git</p></div>
                                     </Col>
                                     {/* Skill 4 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill"><img src="assets/images/bootstrap-5-logo-icon.png"/><p>Bootstrap</p></div>
+                                        <div className="skill"><img src="assets/images/bootstrap-5-logo-icon.png" alt="Bootstrap" /><p>Bootstrap</p></div>
                                     </Col>
                                     {/* Skill 5 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill"><img src="assets/images/javascript-programming-language-icon.png"/><p>JavaScript</p></div>
+                                        <div className="skill"><img src="assets/images/javascript-programming-language-icon.png" alt="JavaScript" /><p>JavaScript</p></div>
                                     </Col>
                                     {/* Skill 6 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill"><img src="assets/images/jquery-icon.png"/><p>jQuery</p></div>
+                                        <div className="skill"><img src="assets/images/jquery-icon.png" alt="jQuery" /><p>jQuery</p></div>
                                     </Col>
                                     {/* Skill 7 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill"><img src="assets/images/react-js-icon.png"/><p>React</p></div>
+                                        <div className="skill"><img src="assets/images/react-js-icon.png" alt="ReactJS" /><p>React</p></div>
                                     </Col>
                                     {/* Skill 8 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill"><img src="assets/images/node-js-icon.png"/><p>Node.js</p></div>
+                                        <div className="skill"><img src="assets/images/node-js-icon.png" alt="Node.JS" /><p>Node.js</p></div>
                                     </Col>
                                 </Row>
                             </Col>

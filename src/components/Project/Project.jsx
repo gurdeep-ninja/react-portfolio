@@ -1,5 +1,4 @@
-import { Button, Card, Container, Row, Col } from 'react-bootstrap';
-import CardHeader from 'react-bootstrap/esm/CardHeader';
+import { Button, Card, Col } from 'react-bootstrap';
 
 function Project(props) {
     const { id, title, github, image, demo } = props;
@@ -9,7 +8,7 @@ function Project(props) {
     return (
         <Col xs={12} md={firstProject}>
             <Card className='bg-dark'>
-                <Card.Img variant="top" src={"assets/images/" + image} />
+                <Card.Img variant="top" src={"assets/images/" + image} alt={title} />
                 <Card.Body>
                     <Card.Title>
                         {title}
