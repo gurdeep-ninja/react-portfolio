@@ -1,19 +1,20 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Nav, Navbar} from 'react-bootstrap';
 import logoSrc from '../../assets/images/logo.png'
-function Nav() {
+function Header() {
     return (
         <header>
-            <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="p-3">
                 <NavLink className="navbar-brand" to="/" end>
                     <img src={logoSrc} alt="Gurdeep Bangar logo image" className="logo" />
                 </NavLink>
-                <button className="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id ="responsive-navbar-nav">
+                    <Nav.Link as={NavLink} to="/">
+                        New
+
+                    </Nav.Link>
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <NavLink className="nav-link" to="/projects" end>Projects</NavLink>
@@ -25,10 +26,11 @@ function Nav() {
                             <NavLink className="nav-link" to="/contact" end>Contact me</NavLink>
                         </li>
                     </ul>
-                </div>
-            </nav>
+
+                </Navbar.Collapse>
+            </Navbar>
         </header>
     )
 }
 
-export default Nav;
+export default Header;

@@ -1,6 +1,6 @@
 import projects from '../assets/json/projects.json';
 import Project from '../components/Project/Project';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 function Projects() {
     return (
