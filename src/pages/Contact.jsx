@@ -1,6 +1,8 @@
 import { React, Component } from 'react';
-
 import { Row, Col, Form, Button, Alert } from 'react-bootstrap';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope, faLocationArrow } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 class Contact extends Component {
     // Setting the component's initial state
@@ -67,11 +69,11 @@ class Contact extends Component {
     render() {
         return (
             <>
-                <h1>Contact me</h1>
+                <section className="section-container pt-3 pt-md-5">
+                <h2 className="pb-md-4">Contact me</h2>
                 {this.showMessage()}
-                <section>
                     <Row>
-                        <Col>
+                        <Col md={8}>
                             <Form>
                                 <Form.Group className="mb-3" controlId="formBasicEmail">
                                     <Form.Label>Email address</Form.Label>
@@ -91,6 +93,26 @@ class Contact extends Component {
                                     Submit
                                 </Button>
                             </Form>
+                        </Col>
+                        <Col md={4} className="contact-details ps-5">
+                            <Row className="align-items-center">
+                                <Col>
+                                    
+                                    <a href="mailto:gurdeep.bangar@proton.me"><span className='me-2'>Email</span><FontAwesomeIcon icon={faEnvelope} /></a>
+                                </Col>
+                            </Row>
+                            <Row className="align-items-center">
+                                <Col>
+                                    
+                                    <a href="https://github.com/gurdeep-ninja/"><span className='me-2'>GitHub</span><FontAwesomeIcon icon={faGithub} /></a>
+                                </Col>
+                            </Row>
+                            <Row className="align-items-center">
+                                <Col>
+                                    <a href="https://www.linkedin.com/in/gurdeep-bangar-393543259/"><span className='me-2'>LinkedIn</span><FontAwesomeIcon icon={faLinkedin} /></a>
+                                </Col>
+                            </Row>
+
                         </Col>
                     </Row>
                 </section>

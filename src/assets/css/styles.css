@@ -31,7 +31,7 @@ ul {
 /* Heading 2 styles */
 h2 {
     font-weight:bold;
-    font-size:3.5em
+    font-size:3.5rem
 }
 /* Default link colour */
 a {
@@ -202,6 +202,22 @@ main section:nth-child(even){
 #contact-section h2 {
     border-bottom:2px solid var(--theme-accent);
 }
+.contact-details{
+    font-size:2rem
+}
+.contact-details .row{
+    min-height:100px
+}
+
+.contact-details a{
+    text-decoration: none;
+}
+.contact-details a svg {
+    color:var(--theme-accent)
+}
+.contact-details a:hover{
+    color:var(--theme-accent)
+}
 
 /* General style for section-container */
 .section-container {
@@ -209,13 +225,6 @@ main section:nth-child(even){
 }
 
 /* Footer */
-.contact-details {
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
 /* Set Footer link coour */
 footer a {
     color:var(--theme-accent)
@@ -224,10 +233,7 @@ footer a {
 footer a:hover {
     color: var(--theme-body-font-color);
 }
-/* Set footer contact details section font size */
-.contact-details{
-    font-size:1.5em
-}
+
 /* Minor media query tweeks */
 @media screen and (max-width:500px) {
     /* Make logo image sligtly smaller on small devices */
