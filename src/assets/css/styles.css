@@ -1,6 +1,7 @@
 /* Set CSS variables to reuse throughout website */
 :root {
     --theme-accent: #218AFF;/* Primary accent / font colour */
+    --theme-accent-transparent: #218AFF30;/* Primary accent / font colour */
     --theme-bg-color: rgb(16, 16, 16);/* Primary background colour */
     --theme-bg-color-secondary: rgb(32, 32, 32); /* Secondary background colour */
     --theme-body-font-color: #fff;
@@ -89,6 +90,11 @@ a {
     color:var(--theme-body-font-color);
 }
 
+.nav-link.active {
+	border-top: 1px solid var(--theme-accent);
+    background-color: var(--theme-accent-transparent);
+}
+
 /* Custom Jumbotron styles */
 /* Apply styles to the main jumbotron */
 .jumbotron {
@@ -141,15 +147,17 @@ main section:nth-child(even){
 }
 
 /* Custom card body style */
-.card .card-body{
-        background-color: var(--theme-bg-color);
-        bottom: 2em;
-        right: 0;
-        text-align: right;
-        padding: 20px;
-        opacity: 0.96;
-        border: 3px solid var(--theme-accent);
-        border-right: none;
+.card .card-body {
+	position: absolute;
+	background-color: var(--theme-bg-color);
+	bottom: 2em;
+	right: 0;
+	text-align: right;
+	width: 50%;
+	padding: 20px;
+	opacity: 0.96;
+	border: 3px solid var(--theme-accent);
+	border-right: none;
 }
 
 /* Apply image opacity & animation settings */

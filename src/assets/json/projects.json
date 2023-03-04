@@ -1,17 +1,38 @@
 [
     {
-        "title": "Project 1",
-        "github": "https://github.com",
-        "image":"portfolio-item1.jpg"
+        "title": "Team Profile Generator",
+        "github": "https://github.com/gurdeep-ninja/Team-Profile-Generator",
+        "image": "project2.png",
+        "demo":"https://watch.screencastify.com/v/qWlhIT2ElaQAyjiKSk32"
     },
     {
-        "title": "Project 2",
-        "github": "https://github.com",
-        "image":"screenshot.png"
+        "title": "README.md Generator",
+        "github": "https://github.com/gurdeep-ninja/Readme-Generator",
+        "image": "project1.png",
+        "demo":"https://watch.screencastify.com/v/PX6IVIePQi22xfCvy69x"
     },
     {
-        "title": "Project 3",
-        "github": "https://github.com",
-        "image":"screenshot.png"
+        "title": "Stock Up!",
+        "github": "https://github.com/gurdeep-ninja/Stock-Up",
+        "image": "project3.png",
+        "demo":"https://gurdeep-ninja.github.io/Stock-Up/"
+    },
+    {
+        "title": "Weather Dashboard",
+        "github": "https://github.com/gurdeep-ninja/Weather-Dashboard",
+        "image": "project4.png",
+        "demo":"https://gurdeep-ninja.github.io/Weather-Dashboard/"
+    },
+    {
+        "title": "Work Day Scheduler",
+        "github": "https://github.com/gurdeep-ninja/Work-Day-Scheduler",
+        "image": "project5.png",
+        "demo":"https://gurdeep-ninja.github.io/Work-Day-Scheduler/"
+    },
+    {
+        "title": "Portfolio site v1",
+        "github": "https://github.com/gurdeep-ninja/portfolio",
+        "image": "project6.png",
+        "demo":"https://gurdeep-ninja.github.io/portfolio/"
     }
 ]

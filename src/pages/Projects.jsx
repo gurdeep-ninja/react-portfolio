@@ -5,7 +5,7 @@ import { Container, Row } from 'react-bootstrap';
 function Projects() {
     return (
         <>
-            <p>This is the projects page</p>
+            <h1>Projects</h1>
             <Container>
                 <Row>
                     {projects.map((project, index) => {
@@ -16,6 +16,7 @@ function Projects() {
                             title={project.title}
                             github={project.github}
                             image={project.image}
+                            demo={project.demo}
                         />
 
                     })}
