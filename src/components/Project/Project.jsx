@@ -14,7 +14,7 @@ function Project(props) {
                     <Card.Title>
                         {title}
                     </Card.Title>
-                    <Button href={demo} className="w-50 me-1">Demo</Button>
+                    <Button href={demo} className="md-w-100 w-50 me-1">Demo</Button>
                     <Button variant="secondary" href={github} className="w-25">Code</Button>
                 </Card.Body>
             </Card>
