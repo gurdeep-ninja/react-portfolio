@@ -1,5 +1,4 @@
 import { Container, Col, Row } from 'react-bootstrap';
-
 function Home() {
     return (
         <main>
@@ -24,7 +23,7 @@ function Home() {
                 <section>
                     <Container className="pt-3 pt-md-5 section-container">
                         <Row>
-                            {/* Column 1 of 2 - Title column */}
+                            {/* Column 1 of 2 - About me column */}
                             <Col sm={12} md={6}>
                                 <Row className="pb-2">
                                     <h2>About me</h2>
@@ -39,57 +38,40 @@ function Home() {
                                         small electronic projects to tinkering with Linux server configurations.</p>
                                 </Row>
                             </Col>
-                            {/* Column 2 of 2 - Content column */}
+                            {/* Column 2 of 2 - Skill column */}
                             <Col sm={12} md={6}>
-                                <Row className="mt-5 pt-5">
-                                    {/* Skill 1 of 12 */}
+                                <Row className="mt-5">
+                                    {/* Skill 1 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">HTML</div>
+                                        <div className="skill"><img src="assets/images/html-icon.png" /><p>HTML</p></div>
                                     </Col>
-                                    {/* Skill 2 of 12 */}
+                                    {/* Skill 2 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">CSS</div>
+                                        <div className="skill"><img src="assets/images/css-file-format-icon.png" /><p>CSS</p></div>
                                     </Col>
-                                    {/* Skill 3 of 12 */}
+                                    {/* Skill 3 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">UX Design</div>
+                                        <div className="skill"><img src="assets/images/git-icon.png"/><p>Git</p></div>
                                     </Col>
-                                    {/* Skill 4 of 12 */}
+                                    {/* Skill 4 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">Git</div>
+                                        <div className="skill"><img src="assets/images/bootstrap-5-logo-icon.png"/><p>Bootstrap</p></div>
                                     </Col>
-                                    {/* Skill 5 of 12 */}
+                                    {/* Skill 5 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">GitHub</div>
+                                        <div className="skill"><img src="assets/images/javascript-programming-language-icon.png"/><p>JavaScript</p></div>
                                     </Col>
-                                    {/* Skill 6 of 12 */}
+                                    {/* Skill 6 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">Bootstrap</div>
+                                        <div className="skill"><img src="assets/images/jquery-icon.png"/><p>jQuery</p></div>
                                     </Col>
-                                    {/* Skill 7 of 12 */}
+                                    {/* Skill 7 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">JavaScript</div>
+                                        <div className="skill"><img src="assets/images/react-js-icon.png"/><p>React</p></div>
                                     </Col>
-                                    {/* Skill 8 of 12 */}
+                                    {/* Skill 8 of 8 */}
                                     <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">jQuery</div>
-                                    </Col>
-                                    {/* Skill 9 of 12 */}
-                                    <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">React</div>
-                                    </Col>
-                                    {/* Skill 10 of 12 */}
-                                    <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">Netlify</div>
-                                    </Col>
-                                    {/* Skill 11 of 12 */}
-                                    <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">Node.js</div>
-                                    </Col>
-                                    {/* Skill 12 of 12 */}
-
-                                    <Col lg={3} sm={6} className="col-6 text-center mb-4">
-                                        <div className="skill">Agile</div>
+                                        <div className="skill"><img src="assets/images/node-js-icon.png"/><p>Node.js</p></div>
                                     </Col>
                                 </Row>
                             </Col>

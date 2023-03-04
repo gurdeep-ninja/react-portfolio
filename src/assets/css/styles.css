@@ -165,13 +165,7 @@ main section:nth-child(even){
 
 /* Skill Section */
 .skill {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 50px;
-    background-color: var(--theme-bg-color-secondary);
     position: relative;
-    border:1px solid var(--theme-accent);
 }
 
 /* Span to hold skill checkbox icon */
@@ -182,6 +176,17 @@ main section:nth-child(even){
     top:5px;
     left:5px;
     color:var(--theme-body-font-color);
+}
+
+.skill img {
+	max-width: 40%;
+    transition: transform .1s;
+}
+.skill img:hover{
+    transform: scale(1.5)
+}
+.skill p{
+    display:block
 }
 
 /* Contact section */
