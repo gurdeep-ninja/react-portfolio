@@ -1,10 +1,13 @@
 import { Button, Card, Col } from 'react-bootstrap';
+import Skills from './Skills';
 
 function Project(props) {
-    const { id, title, github, image, demo } = props;
 
-    const firstProject = id === 0 ? "6" : "6";
-    console.log(id);
+    // Deconstruct the props object into variables
+    const { id, title, github, image, demo, skills } = props;
+
+    // If it's the first project, make the column width 12 so it's a hero project
+    const firstProject = id === 0 ? "12" : "6";
     return (
         <Col xs={12} md={firstProject}>
             <Card className='bg-dark'>
@@ -15,7 +18,13 @@ function Project(props) {
                     </Card.Title>
                     <Button href={demo} className="md-w-100 w-50 me-1">Demo</Button>
                     <Button variant="secondary" href={github} className="w-25">Code</Button>
+
                 </Card.Body>
+                <div className="skills">
+                    {skills.map((skill, index) => (
+                        <Skills skill={skill} />
+                    ))}
+                </div>
             </Card>
         </Col>
     )

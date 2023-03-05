@@ -141,8 +141,10 @@ main section:nth-child(even){
 /* My Work Section */
 /* Custom card style */
 .card {
-    border-color:rgba(72, 153, 247,0.5);
-    position: relative;
+	border-color: rgba(72, 153, 247,0.5);
+	position: relative;
+	padding: 1em;
+	margin-bottom: 1em;
 }
 
 /* Custom card body style */
@@ -153,20 +155,22 @@ main section:nth-child(even){
 	right: 0;
 	text-align: right;
 	width: 100%;
-	padding: 20px;
-	opacity: 0.90;
+	padding: 20px;;
 	border-right: none;
 }
 
 /* Apply image opacity & animation settings */
 .card img {
-    opacity: 0.7;
     transition: all 0.2s ease-in-out;
 }
 
 /* On hover event on card image */
 .card:hover img {
-    opacity: 1; 
+    opacity: 0.6; 
+}
+
+.card .skills {
+    z-index:1;
 }
 
 /* Skill Section */

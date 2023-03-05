@@ -18,6 +18,7 @@ function Projects() {
                                 github={project.github}
                                 image={project.image}
                                 demo={project.demo}
+                                skills={project.skills}
                             />
 
                         })}

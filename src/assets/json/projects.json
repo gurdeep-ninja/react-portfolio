@@ -1,38 +1,51 @@
 [
     {
+        "title": "Portfolio site v3",
+        "github": "https://github.com/gurdeep-ninja/react-portfolio",
+        "image": "project7.png",
+        "demo":"https://gurdeep-ninja.github.io/react-portfolio/",
+        "skills": ["react","nodejs","bootstrap","css","html"]
+    },
+    {
         "title": "Team Profile Generator",
         "github": "https://github.com/gurdeep-ninja/Team-Profile-Generator",
         "image": "project2.png",
-        "demo":"https://watch.screencastify.com/v/qWlhIT2ElaQAyjiKSk32"
+        "demo":"https://watch.screencastify.com/v/qWlhIT2ElaQAyjiKSk32",
+        "skills": ["javascript","nodejs","bootstrap"]
     },
     {
         "title": "README.md Generator",
         "github": "https://github.com/gurdeep-ninja/Readme-Generator",
         "image": "project1.png",
-        "demo":"https://watch.screencastify.com/v/PX6IVIePQi22xfCvy69x"
+        "demo":"https://watch.screencastify.com/v/PX6IVIePQi22xfCvy69x",
+        "skills": ["javascript","nodejs"]
     },
     {
         "title": "Stock Up!",
         "github": "https://github.com/gurdeep-ninja/Stock-Up",
         "image": "project3.png",
-        "demo":"https://gurdeep-ninja.github.io/Stock-Up/"
+        "demo":"https://gurdeep-ninja.github.io/Stock-Up/",
+        "skills": ["javascript","bootstrap","css","html"]
     },
     {
         "title": "Weather Dashboard",
         "github": "https://github.com/gurdeep-ninja/Weather-Dashboard",
         "image": "project4.png",
-        "demo":"https://gurdeep-ninja.github.io/Weather-Dashboard/"
+        "demo":"https://gurdeep-ninja.github.io/Weather-Dashboard/",
+        "skills": ["javascript","bootstrap","css","html"]
     },
     {
         "title": "Work Day Scheduler",
         "github": "https://github.com/gurdeep-ninja/Work-Day-Scheduler",
         "image": "project5.png",
-        "demo":"https://gurdeep-ninja.github.io/Work-Day-Scheduler/"
+        "demo":"https://gurdeep-ninja.github.io/Work-Day-Scheduler/",
+        "skills": ["javascript","html","css"]
     },
     {
         "title": "Portfolio site v1",
         "github": "https://github.com/gurdeep-ninja/portfolio",
         "image": "project6.png",
-        "demo":"https://gurdeep-ninja.github.io/portfolio/"
+        "demo":"https://gurdeep-ninja.github.io/portfolio/",
+        "skills": ["javascript","html","css"]
     }
 ]
