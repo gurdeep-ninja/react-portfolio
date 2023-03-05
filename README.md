@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# React Portfolio ![license](https://img.shields.io/badge/license-GNU%203.0-blue)
+## Description
+An improved portfolio site created using React JS. Utilising React Router and components to render different pages and sections. 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Screenshot of website](./src/assets/images/screenshot1.png)
 
-## Available Scripts
+[Click here to live demo](https://gurdeep-ninja.github.io/react-portfolio/)
 
-In the project directory, you can run:
+## Table of Contents
+[Installation](#installation)<br>
+[License](#license)<br>
+[Usage](#usage)<br>
+[Notes](#notes)<br>
+[Resources](#resources)<br>
+[Questions](#questions)<br>
+## Installation
+To use this application, you must have ```node``` & ```npm``` installed.
 
-### `npm start`
+To install, please make a clone of this repository to your local pc or web server.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Once you have cloned the repository, run the ```npm install``` command to download the project dependencies.
+## Usage
+To add extra projects to the portfolio section, first edit the file ```src\assets\json\projects.json``` and add a new object to the projects array.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Make sure you copy your project screenshot to the folder ```src\assets\images\``` directory.
 
-### `npm test`
+Your new project will automatically appear in the projects section.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To change the hero project (first project), simply move the project object to the top of the projects array.
 
-### `npm run build`
+## License
+This app uses the following license: GNU General Public License v3.0
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Notes
+This project originally used the React ```Router``` but was swapped out to use ```HashRouter``` to resolve compatibility issues with deployment to GitHub pages. 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+More information about the GitHub Router issue here: https://create-react-app.dev/docs/deployment/#notes-on-client-side-routing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Resources
 
-### `npm run eject`
+Getting Bootstrap Nav links to work with the React Router system (```src\components\Header\index.js```)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://frontendshape.com/post/setup-bootstrap-5-navbar-in-reactjs-with-router
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+https://stackoverflow.com/a/54978470
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+How to create Bootstrap Alerts based on component state (```src\pages\Contact.jsx```)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://www.pluralsight.com/guides/alert-users-to-errors-with-react-bootstrap
 
-## Learn More
+## Questions
+If you have any questions or would like to get in touch, please see my contact details below.<br>
+GitHub: [gurdeep-ninja](https://github.com/gurdeep-ninja)<br>
+Email: [gurdeep.bangar@proton.me](mailto:gurdeep.bangar@proton.me)<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
