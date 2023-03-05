@@ -1,7 +1,7 @@
 import { React, Component } from 'react';
 import { Row, Col, Form, Button, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faLocationArrow, faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope,  faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 class Contact extends Component {

@@ -22,7 +22,7 @@ function Project(props) {
                 </Card.Body>
                 <div className="skills">
                     {skills.map((skill, index) => (
-                        <Skills skill={skill} />
+                        <Skills key={index} skill={skill} />
                     ))}
                 </div>
             </Card>
