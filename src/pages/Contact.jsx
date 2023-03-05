@@ -112,7 +112,7 @@ class Contact extends Component {
                             </Row>
                             <Row className="align-items-top">
                                 <Col>
-                                    <a href="assets/documents/cv.pdf"><FontAwesomeIcon icon={faFilePdf} /><span className='ms-2'>Resume / CV</span></a>
+                                    <a href={require("../assets/documents/cv.pdf")}><FontAwesomeIcon icon={faFilePdf} /><span className='ms-2'>Resume / CV</span></a>
                                 </Col>
                             </Row>
                         </Col>

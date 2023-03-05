@@ -11,7 +11,7 @@ function Project(props) {
     return (
         <Col xs={12} md={firstProject}>
             <Card className='bg-dark'>
-                <Card.Img variant="top" src={"assets/images/" + image} alt={title} />
+                <Card.Img variant="top" src={require("../../assets/images/" + image)} alt={title} />
                 <Card.Body>
                     <Card.Title>
                         {title}

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter , Route, Routes } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Container>
-      <Router>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="contact" element={<Contact />} />
         </Routes>
         <Footer />
-      </Router>
+      </HashRouter>
     </Container>
   );
 }
