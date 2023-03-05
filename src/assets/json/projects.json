@@ -25,14 +25,14 @@
         "github": "https://github.com/gurdeep-ninja/Stock-Up",
         "image": "project3.png",
         "demo":"https://gurdeep-ninja.github.io/Stock-Up/",
-        "skills": ["javascript","bootstrap","css","html"]
+        "skills": ["javascript","jquery","bootstrap","css","html"]
     },
     {
         "title": "Weather Dashboard",
         "github": "https://github.com/gurdeep-ninja/Weather-Dashboard",
         "image": "project4.png",
         "demo":"https://gurdeep-ninja.github.io/Weather-Dashboard/",
-        "skills": ["javascript","bootstrap","css","html"]
+        "skills": ["javascript","jquery","bootstrap","css","html"]
     },
     {
         "title": "Work Day Scheduler",

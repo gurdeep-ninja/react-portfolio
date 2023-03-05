@@ -61,7 +61,7 @@ class Contact extends Component {
             case "no":
                 return <Alert variant="success">Thank you! I will get in touch shortly!</Alert>;
             default:
-            // code block
+                return <></>;
         }
     }
 
@@ -70,8 +70,8 @@ class Contact extends Component {
         return (
             <>
                 <section className="section-container pt-3 pt-md-5">
-                <h2 className="pb-md-4">Contact me</h2>
-                {this.showMessage()}
+                    <h2 className="pb-md-4">Contact me</h2>
+                    {this.showMessage()}
                     <Row>
                         <Col md={8}>
                             <Form>
@@ -97,13 +97,11 @@ class Contact extends Component {
                         <Col md={4} className="contact-details ps-md-5 mt-5 mt-md-0">
                             <Row className="align-items-top">
                                 <Col>
-                                    
                                     <a href="mailto:gurdeepbangar@proton.me"><FontAwesomeIcon icon={faEnvelope} /><span className='ms-2'>Email</span></a>
                                 </Col>
                             </Row>
                             <Row className="align-items-top">
                                 <Col>
-                                    
                                     <a href="https://github.com/gurdeep-ninja/"><FontAwesomeIcon icon={faGithub} /><span className='ms-2'>GitHub</span></a>
                                 </Col>
                             </Row>
