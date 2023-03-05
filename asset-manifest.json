@@ -1,14 +1,37 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.71a4e936.css",
-    "main.js": "/react-portfolio/static/js/main.03d84f07.js",
+    "main.js": "/react-portfolio/static/js/main.4ef5d80b.js",
     "static/media/hero-bg.jpg": "/react-portfolio/static/media/hero-bg.051a319b3adb5d9d277a.jpg",
+    "static/media/portfolio-item1.jpg": "/react-portfolio/static/media/portfolio-item1.1aa0eb2d437e21d1115e.jpg",
+    "static/media/project7.png": "/react-portfolio/static/media/project7.130ff8ec2f64f21eb852.png",
+    "static/media/project6.png": "/react-portfolio/static/media/project6.e1e77a1ce19692e4b29c.png",
+    "static/media/project2.png": "/react-portfolio/static/media/project2.a52692d9255de4d255da.png",
+    "static/media/project1.png": "/react-portfolio/static/media/project1.412c2d863cf4887fd6f8.png",
+    "static/media/project4.png": "/react-portfolio/static/media/project4.e1b70e5798bc786c1c48.png",
+    "static/media/me.png": "/react-portfolio/static/media/me.eefd74f2e128e6e9240a.png",
+    "static/media/project3.png": "/react-portfolio/static/media/project3.0b9e73d9418d1026bfd1.png",
+    "static/media/project5.png": "/react-portfolio/static/media/project5.b1ac72d84d8e90ad5731.png",
+    "static/media/linux-icon.png": "/react-portfolio/static/media/linux-icon.93673bf915cbe7ad9b8d.png",
+    "static/media/react-js-icon.png": "/react-portfolio/static/media/react-js-icon.f3daf64fac8dd95d9637.png",
+    "static/media/logo.png": "/react-portfolio/static/media/logo.c340285539771fc885bf.png",
+    "static/media/csharp-logo.png": "/react-portfolio/static/media/csharp-logo.1d437c75dfe1f72cc0a5.png",
+    "static/media/mysql-logo.png": "/react-portfolio/static/media/mysql-logo.e616f7dd2125fc1c15d1.png",
+    "static/media/php-logo.png": "/react-portfolio/static/media/php-logo.20d81112963cad506851.png",
+    "static/media/bootstrap-5-logo-icon.png": "/react-portfolio/static/media/bootstrap-5-logo-icon.b571300f40aa6ebf4899.png",
+    "static/media/jquery-icon.png": "/react-portfolio/static/media/jquery-icon.5deb0f2ebd8cdd087cf8.png",
+    "static/media/node-js-icon.png": "/react-portfolio/static/media/node-js-icon.3ae615a32b9425443928.png",
+    "static/media/git-icon.png": "/react-portfolio/static/media/git-icon.95371fee82ad3b3e51db.png",
+    "static/media/css-file-format-icon.png": "/react-portfolio/static/media/css-file-format-icon.48a8bc9cd47c97ace273.png",
+    "static/media/nginx-icon.png": "/react-portfolio/static/media/nginx-icon.692e0a9718e7b8a7ca57.png",
+    "static/media/javascript-programming-language-icon.png": "/react-portfolio/static/media/javascript-programming-language-icon.bcfdc38aa890f8e3f4b9.png",
+    "static/media/html-icon.png": "/react-portfolio/static/media/html-icon.051f66555fa8a8f8f72a.png",
     "index.html": "/react-portfolio/index.html",
     "main.71a4e936.css.map": "/react-portfolio/static/css/main.71a4e936.css.map",
-    "main.03d84f07.js.map": "/react-portfolio/static/js/main.03d84f07.js.map"
+    "main.4ef5d80b.js.map": "/react-portfolio/static/js/main.4ef5d80b.js.map"
   },
   "entrypoints": [
     "static/css/main.71a4e936.css",
-    "static/js/main.03d84f07.js"
+    "static/js/main.4ef5d80b.js"
   ]
 }
