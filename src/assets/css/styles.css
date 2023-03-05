@@ -104,14 +104,13 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    height: calc(50vh - 25px);
+    height: calc(50vh);
 }
 
 /* Jumbotron copy text */
 .jumboCopy {
 	color: var(--theme-body-font-color);
 	text-align: center;
-    padding:calc(10vh - 25px) 0;
     background-color:rgba(0, 0, 0,0.5);
     width:100%;
 }
@@ -192,8 +191,12 @@ main section:nth-child(even){
 .skill img:hover{
     transform: scale(1.5)
 }
-.skill p{
+.skill p {
     display:block
+}
+
+.row.about p{
+    font-size:1.3rem
 }
 
 /* Contact section */
@@ -205,10 +208,6 @@ main section:nth-child(even){
 .contact-details{
     font-size:2rem
 }
-.contact-details .row{
-    min-height:100px
-}
-
 .contact-details a{
     text-decoration: none;
 }
@@ -248,5 +247,8 @@ footer a:hover {
     .card .card-body,.row div:nth-child(n+2) .card .card-body{
         width:100%;
         bottom:0
+    }
+    .nav-item {
+        width: 100%;
     }
 }

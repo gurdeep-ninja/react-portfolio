@@ -1,7 +1,7 @@
 import { React, Component } from 'react';
 import { Row, Col, Form, Button, Alert } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faLocationArrow } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocationArrow, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 class Contact extends Component {
@@ -94,25 +94,29 @@ class Contact extends Component {
                                 </Button>
                             </Form>
                         </Col>
-                        <Col md={4} className="contact-details ps-5">
-                            <Row className="align-items-center">
+                        <Col md={4} className="contact-details ps-md-5 mt-5 mt-md-0">
+                            <Row className="align-items-top">
                                 <Col>
                                     
-                                    <a href="mailto:gurdeep.bangar@proton.me"><span className='me-2'>Email</span><FontAwesomeIcon icon={faEnvelope} /></a>
+                                    <a href="mailto:gurdeepbangar@proton.me"><FontAwesomeIcon icon={faEnvelope} /><span className='ms-2'>Email</span></a>
                                 </Col>
                             </Row>
-                            <Row className="align-items-center">
+                            <Row className="align-items-top">
                                 <Col>
                                     
-                                    <a href="https://github.com/gurdeep-ninja/"><span className='me-2'>GitHub</span><FontAwesomeIcon icon={faGithub} /></a>
+                                    <a href="https://github.com/gurdeep-ninja/"><FontAwesomeIcon icon={faGithub} /><span className='ms-2'>GitHub</span></a>
                                 </Col>
                             </Row>
-                            <Row className="align-items-center">
+                            <Row className="align-items-top">
                                 <Col>
-                                    <a href="https://www.linkedin.com/in/gurdeep-bangar-393543259/"><span className='me-2'>LinkedIn</span><FontAwesomeIcon icon={faLinkedin} /></a>
+                                    <a href="https://www.linkedin.com/in/gurdeep-bangar-393543259/"><FontAwesomeIcon icon={faLinkedin} /><span className='ms-2'>LinkedIn</span></a>
                                 </Col>
                             </Row>
-
+                            <Row className="align-items-top">
+                                <Col>
+                                    <a href="assets/documents/cv.pdf"><FontAwesomeIcon icon={faFilePdf} /><span className='ms-2'>Resume / CV</span></a>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                 </section>
