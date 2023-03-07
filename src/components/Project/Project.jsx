@@ -18,13 +18,13 @@ function Project(props) {
                     </Card.Title>
                     <Button href={demo} className="md-w-100 w-50 me-1">Demo</Button>
                     <Button variant="secondary" href={github} className="w-25">Code</Button>
+                    <div className="skills">
+                        {skills.map((skill, index) => (
+                            <Skills key={index} skill={skill} />
+                        ))}
+                    </div>
 
                 </Card.Body>
-                <div className="skills">
-                    {skills.map((skill, index) => (
-                        <Skills key={index} skill={skill} />
-                    ))}
-                </div>
             </Card>
         </Col>
     )
